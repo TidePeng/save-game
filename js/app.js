@@ -42,7 +42,7 @@ Enemy.prototype.update = function(dt) {
         player.x = Math.floor(Math.random() * 5) * this.width;
         player.y = 460;
         clearInterval(intervalID);
-        alert('恭喜你，坚持了'+timer.value);
+        alert('恭喜你，坚持了'+' '+timer.value);
         timer.value = '';
     }
 };
