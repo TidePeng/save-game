@@ -52,11 +52,14 @@ var Engine = (function(global) {
         
         
 
-        /* Use the browser's requestAnimationFrame function to call this
+        /* Use the browser's 
+         AnimationFrame function to call this
          * function again as soon as the browser is able to draw another frame.
          */
         if(win.requestAnimationFrame){
             win.requestAnimationFrame(main);
+        }else{
+            alert('抱歉，您的浏览器不支持最新的动画标签，请升级到最新浏览器~~')；     
         }
     }
 
