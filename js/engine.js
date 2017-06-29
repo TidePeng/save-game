@@ -59,7 +59,7 @@ var Engine = (function(global) {
         if(win.requestAnimationFrame){
             win.requestAnimationFrame(main);
         }else{
-            alert('抱歉，您的浏览器不支持最新的动画标签，请升级到最新浏览器~~')；     
+            alert('抱歉，您的浏览器不支持最新的动画标签，请升级到最新浏览器~~');     
         }
     }
 
